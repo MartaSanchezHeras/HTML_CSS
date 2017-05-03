@@ -2,10 +2,6 @@ li{color: pink;
 }
 
 h1{color: grey;
-    font-family: 'Lucida Sans', 
-    'Lucida Sans Regular', 
-    'Lucida Grande', 
-    'Lucida Sans Unicode',
-    Geneva, Verdana, sans-serif;
+   font-family: Courier New, Courier, monospace;
     font-size: 50px;
  }
