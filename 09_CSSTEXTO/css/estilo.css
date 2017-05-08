@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister');
 @import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister|Sanchez');
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Shadows+Into+Light');
-html{
+
+
+*{box-sizing: border-box;
     
 }
 body{
