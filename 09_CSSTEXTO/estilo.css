@@ -1,0 +1,36 @@
+/*fuentes*/
+@import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister');
+@import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister|Sanchez');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Shadows+Into+Light');
+
+body{
+    padding: 20%;
+}
+
+h1{
+    color:#0088cc;
+    font-family: 'Love Ya Like A Sister', cursive ;
+    text-align: center;
+}
+
+p{
+    color:#00334d ;
+    font-family: 'Sanchez', serif; ;
+}
+
+span.autor{
+    color:blue;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+#p2{
+    font-family: 'Shadows Into Light', cursive; ;
+    font-size: 1.5em;
+
+}
+
+q{
+    color:#008060 ;
+}
