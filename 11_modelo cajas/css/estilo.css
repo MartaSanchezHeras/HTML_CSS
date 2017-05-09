@@ -17,14 +17,53 @@ font-family: 'Cutive Mono', monospace;
 
 
 body{
+   
+    background:black;
 
 }    
 
 
 header{
+    
 
 }
 
-div{
+h1{
+    font-size: 4em;
+    color:white;
+    font-family: 'Julius Sans One', sans-serif; 
+    text-align: center; 
+}
+section{
+    width: 60%;
+    margin: auto;
     
+}
+div{
+text-align: center;
+    
+}
+
+p{
+    font-family: 'Cutive Mono', monospace;
+    font-size: 1em;
+    margin: 5%;
+    color: white;
+}
+
+p#dos{
+    margin: 5% 10%;
+    border:2px solid yellowgreen;
+    padding: 5% 10%;
+    color:white;
+    background:#595959;
+}
+
+p#pie{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+small{
+    color:yellowgreen;
 }
