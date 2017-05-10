@@ -1,0 +1,32 @@
+*{margin: 0;padding: 0;}
+body{
+   
+    
+}
+
+h1{
+    padding: 3%;
+    text-align: center
+}
+article{
+    border-top:solid black 3px; 
+}
+section{
+    width: 30%;
+    margin: 0px 0.5%;
+    padding: 1%;
+    background-color: #adad85;
+    float:left;
+}
+
+
+
+footer{
+    clear:both;
+    
+    margin-top: 5%;
+    border-top:solid black 3px;
+}
+
+
+
