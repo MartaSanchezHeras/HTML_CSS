@@ -5,8 +5,10 @@ padding: 0;
 .caja{
     width: 500px;
     
-    background: yellow;
+    background:#ffb366;
     position:absolute;
+    top:300px;
+    left:100px;
 }
 
 .caja1,.caja2,.caja3{
@@ -15,26 +17,27 @@ padding: 0;
 }
 
 .caja1{
-    background: green;
+    background: #66ff8c;
 }
 
 .caja2{
-    background: blueviolet;
+    background: #ff66cc;
     position:absolute;
     top:0;
     left:250px;
 }
 
 .caja3{
-    background: black;
+    background: 	#668cff;
     position:absolute;
-    top:200px;
-    left:200px;
+    top:50px;
+    left:150px;
+    
 }
 
 .caja4{
     width:100%;
-    background: grey;
+    background: 	#ffff66;
     position:fixed;
     bottom: 0px;
 
