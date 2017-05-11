@@ -1,0 +1,39 @@
+*{
+    box-sizing:border-box;
+    
+}
+
+body{
+    width:  90%;
+    margin: auto;
+}
+
+figure{
+    height: 200px;
+    width: 250px;
+    border-radius:12%;
+    border:solid teal 2px;
+    box-shadow: 4px 4px grey;
+    text-align: center;
+    float: left;
+
+    
+}
+
+img{
+    width: 80%;
+    height: 70%;
+    margin-top:6%;
+    border-radius: 12%; 
+    
+  
+
+}
+
+h1{
+    text-shadow: 2px 2px grey;
+    text-align: center;
+    color:teal;
+    font-size: 4em;
+}
+
