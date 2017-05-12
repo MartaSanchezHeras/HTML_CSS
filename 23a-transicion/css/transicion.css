@@ -1,0 +1,17 @@
+
+
+h1{
+    border: 3px teal solid;
+    width: 25%;
+    text-align: center;
+    color:teal;
+    transition: all 3s ease 0.2s;
+    margin:auto;
+   
+}
+
+h1:hover{
+    color:white;
+    background: teal;
+    height: 500px;
+}

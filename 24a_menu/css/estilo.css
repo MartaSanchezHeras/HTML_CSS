@@ -1,0 +1,32 @@
+nav{
+    width: 90%;
+    margin:auto;
+    background:#999966;
+}
+
+ul{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+    /*background:	#4da6ff;*/
+}
+
+li{
+    list-style-type: none;
+    display:inline-block;
+    /*background:#794dff;*/
+    padding: 4%;
+    margin: 2%;
+    transition: all 1s ease-in-out  0.2s;
+}
+a{
+    text-decoration: none;
+    /*background: 	#ff4dff;*/
+    padding: 2%;
+    color:white;
+    
+}
+
+li:hover{
+    background: black;
+}
