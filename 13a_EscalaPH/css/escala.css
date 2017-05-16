@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
+/*font-family: 'Architects Daughter', cursive;*/
+
+p{
+    width: 30%;
+    margin: 0 auto;
+    padding: 1%;
+    font-family:'Architects Daughter', cursive;
+}
+h1{
+    background-color: hsl(0, 0%, 20%);
+    color:white;
+    width: 50%;
+    text-align: center;
+    margin: 1% auto;
+    font-family:'Architects Daughter', cursive;
+}
+
+#cero{
+    background-color: hsla(340, 100%, 70%, 1);
+}
+
+#uno{
+background-color: hsla(340, 100%, 70%, 0.9);
+}
+
+#dos{
+background-color: hsla(340, 100%, 70%, 0.8);
+}
+
+#tres{
+background-color: hsla(340, 100%, 70%, 0.7);
+}
+
+#cuatro{
+background-color: hsla(340, 100%, 70%, 0.6);
+}
+
+#cinco{
+background-color: hsla(340, 100%, 70%, 0.5 );
+}
+
+#seis{
+background-color: hsla(340, 100%, 70%, 0.4);
+}
+
+#siete{background-color:hsl(160, 100%, 55%);
+
+}
+
+#ocho{background-color: hsl(195, 100%, 90%);
+
+}
+
+#nueve{background-color: hsl(195, 100%, 85%);
+
+}
+
+#diez{background-color: hsl(195, 100%, 80%);
+
+}
+
+#once{background-color: hsl(195, 100%, 75%);
+
+}
+
+#doce{background-color: hsl(195, 100%, 70%);
+
+}
+
+#trece{background-color: hsl(195, 100%, 65%);
+
+}
+
+#catorce{background-color: hsl(195, 100%, 60%);
+
+}

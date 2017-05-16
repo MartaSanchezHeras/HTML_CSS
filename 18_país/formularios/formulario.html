@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+<!-- -->
+        <meta charset="utf-8">
+<!-- -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Titulo -->
+        <title>Formularios</title>
+<!-- -->
+        <meta name="Keywords" contnt="webs,learning,html5,css3">
+<!-- Autor -->
+        <meta name="author" content="Marta Sánchez Heras">
+<!-- Descripcion de el contenido-->
+        <meta name="description" content="">
+<!-- Programa con el que se realiza-->
+        <meta name="generator" content="Visual Studio Code">
+<!-- -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- link a CSS -->
+        <link rel="stylsheet" href="">
+<!-- link a favicon -->
+        <link rel="shortcut icon" href="">
+    </head>
+
+
+<form method="get" action="form.asp" name="datos">
+
+        <fieldset>
+            <legend> DATOS PERSONALES </legend>
+                    <p>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" value="" id="nombre" placeholder="Nombre" required>
+                    </p>
+                    <p>
+                        <label for="apellido">Apellido</label>
+                        <input type="text" name="apellido" value="" id="apellido"  placeholder="apellido" required>
+                    </p>
+                    <p>    
+                        <label for="email">Correo</label>
+                        <input type="email" name="email" value="" id="email" placeholder="email">
+                    </p>
+
+                    <p>    
+                        <label for="contra">Contraseña</label>
+                        <input type="password" name="contra" value="" id="contra" placeholder="contraseña">
+                    </p>
+
+                    <p>    
+                        <label for="telf">Telefono</label>
+                        <input type="tel" name="telf" value="" id="telf" placeholder="telefono">
+                    </p>
+
+        </fieldset>
+
+        <fieldset>
+                <legend>buscar</legend>
+                    <input type="text" name="q" value="gatos">
+        </fieldset>
+
+
+                    <p>
+                        <input type="submit" name="send" value="Enviar">
+                    </p>
+</form>
+    <body>
+        
+        
+        
+    </body>
+</html>
