@@ -1,8 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Shadows+Into+Light');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
 /*font-family: 'Open Sans Condensed', sans-serif;
 font-family: 'Shadows Into Light', cursive;*/
 /*font-family: 'Open Sans', sans-serif;*/
+/*font-family: 'Cutive Mono', monospace;*/
+
+
+/*Fondo**********************************************************************************************/
+html{
+     /*background:linear-gradient(white,#00cc9c);*/
+    background:url("../images/dragon.png")no-repeat top right ,linear-gradient(white,#e6e6e6,#336699); ;
+    
+    
+}
 
 
 /*Estilo que que aplica a todo**************************************************************/
@@ -73,28 +84,59 @@ p{
     
 }
 
+
+
 .verde{
-    color:green;
+    color:#0d1a26;
+    font-weight: bold;
 }
 section#uno{
     /*background: pink;*/
     float:left;
-    width: 40%;
+    width: 45%;
 
 }
 
 section#dos{
     /*background: grey;*/
     float:left;
-    width: 50%;
+    width: 45%;
     margin-left: 3%;
     border-left:black solid 3px; 
     
 
 }
+figure{
+   border: white solid 0.2em;
+    padding: 1em;
+    width: 30%;
+    float: left;
+    margin:2em; 
+}
+img{
+    width: 100%;
+}
 
+figcaption{
+    font-size: 0.2 em;
+    text-align: right;
+    
+}
+
+em{
+    color:#336699;
+}
 /*Pie**********************************************************************************************/
 
 footer{
+    font-family:'Cutive Mono', monospace;
+    font-size: 1.4em;
+    width: 60%;
+    margin: 0 auto;
     clear:both;
+    text-align: center;
+    padding: 1em;
+    color:white;
+    border-top:0.1em black solid;
+
 }
