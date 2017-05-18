@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+<!-- -->
+        <meta charset="utf-8">
+<!-- -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Titulo -->
+        <title>Formulario</title>
+<!-- -->
+        <meta name="Keywords" contnt="webs,learning,html5,css3">
+<!-- Autor -->
+        <meta name="author" content="Marta Sánchez Heras">
+<!-- Descripcion de el contenido-->
+        <meta name="description" content="formulario">
+<!-- Programa con el que se realiza-->
+        <meta name="generator" content="Visual Studio Code">
+<!-- -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- link a CSS -->
+        <link rel="stylesheet" href="css/estilo.css">
+<!-- link a favicon -->
+        <link rel="shortcut icon" href="">
+    </head>
+
+    <body>
+
+        <form>Datos del Alumno:
+
+            <div id="uno">
+                <fieldset><legend>Identificación:</legend>
+                    <label>Cuenta Correo:<input type="email" name="mail" id="mail"></input></label>
+                    <label>Contraseña:<input type="password" name="contra" id="contra"></input></label>
+                    <label>Repita Contraseña:<input type="password" name="recontra" id="recontra"></input></label>
+                </fieldset>
+
+                <fieldset><legend>Curso:</legend>
+                    <input type="radio" name="cursos">Programador Web</input>
+                    <input type="radio" name="cursos">Programador Site</input>
+                    <input type="radio" name="cursos">Programador Objeto</input>
+
+                </fieldset>
+
+                <fieldset>
+                        <input type="submit" name="enviar" value="Enviar Datos"></input>
+                        <input type="botton" name="resaltar" value="Resaltar Valores"></input>
+                </fieldset>
+        </div>
+        <div id="dos">
+                <fieldset><legend>Datos Personales:</legend>
+                    <label>Nombre:<input type="text" name="nombre" id="nombre"></input></label>
+                    <label>Primer Apellido:<input type="text" name="apellido1" id="apellido1"></input></label>
+                    <label>Segundo Apellido:<input type="text" name="apellido2" id="apellido2"></input></label>
+                </fieldset>
+               
+                <fieldset><legend>Fecha de Nacimiento:</legend>
+                        Día:<input type="day"></input>
+                        Mes:<input type="month"></input>
+                        Año:<input type="year"></input>
+
+                </fieldset>
+
+                <fieldset><legend>Actividades:</legend>
+                        <input type="checkbox">Pintura</input>
+                        <input type="checkbox">Lectura</input>
+                        <input type="checkbox">Baile</input>
+                        <input type="checkbox">Musica</input>
+                        <input type="checkbox">Viajes</input>
+                        <input type="checkbox">Senderismo</input>
+                        <input type="checkbox">cine</input>
+
+                </fieldset>
+
+            </div>
+            
+
+            </div>
+
+        </form>
+        
+        
+        
+    </body>
+</html>
+
